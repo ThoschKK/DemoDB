@@ -1,0 +1,42 @@
+{
+	"folders": {},
+	"connections": {
+		"snowflake_jdbc-17e2ade48c5-1122fee620b93400": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "Snowflake_POC",
+			"save-password": true,
+			"navigator-show-only-entities": true,
+			"navigator-hide-folders": true,
+			"navigator-hide-virtual": true,
+			"read-only": false,
+			"configuration": {
+				"host": "tx24170.west-europe.azure.snowflakecomputing.com",
+				"port": "443",
+				"server": "COMPUTE_WH",
+				"database": "MAT_KK_POC_DB",
+				"url": "jdbc:snowflake://tx24170.west-europe.azure.snowflakecomputing.com:443/?db=MAT_KK_POC_DB&warehouse=COMPUTE_WH&schema=STAGE&role=SYSADMIN",
+				"type": "Snowflake",
+				"properties": {
+					"TIMEZONE": "Europe/Berlin"
+				},
+				"provider-properties": {
+					"@dbeaver-schema@": "STAGE",
+					"@dbeaver-role@": "SYSADMIN"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"Snowflake": {
+			"name": "SnowflakePOC",
+			"color": "0,128,255",
+			"description": "Snowflake",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": true,
+			"auto-close-transactions": false
+		}
+	}
+}
